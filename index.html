@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MediLink.lk - Online Pharmacy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      padding-top: 56px;
+      color: #212529;
+    }
+
+    /* Glassy navbar */
+    .navbar-glass {
+      background: rgba(30, 41, 59, 0.65);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(30, 41, 59, 0.18);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      transition: background-color 0.3s ease;
+    }
+
+    /* Glass effect container */
+    .glass-section {
+      background: rgba(255, 255, 255, 0.22);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 3rem 2rem;
+      margin: 2rem auto;
+      max-width: 1200px;
+      color: #212529;
+    }
+
+    header.hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+      position: relative;
+      padding: 0 1rem;
+    }
+
+    header.hero .container {
+      background: rgba(0, 0, 0, 0.35);
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      max-width: 700px;
+      text-align: center;
+    }
+
+    .hero .btn {
+      border-radius: 50px;
+      padding: 10px 25px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      color: #212529;
+      background-color: #40E0D0;
+      border: none;
+    }
+    .hero .btn:hover {
+      background-color: #30cfcf;
+      color: white;
+    }
+
+    .product-feature {
+      transition: transform 0.3s ease;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 15px;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      color: #212529;
+      text-align: center;
+    }
+    .product-feature:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    }
+    .product-feature img {
+      max-width: 80px;
+      margin-bottom: 1rem;
+    }
+
+    section.py-5.bg-light {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      margin: 3rem auto;
+      max-width: 1200px;
+      padding: 3rem 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      color: #212529;
+    }
+
+    footer.bg-dark {
+      background-color: rgba(17, 17, 17, 0.85);
+      backdrop-filter: blur(8px);
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      header.hero .container {
+        padding: 1.5rem 1.5rem;
+      }
+      .product-feature {
+        padding: 1.5rem 1rem;
+      }
+      section.py-5.bg-light {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-glass shadow">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MediLink.lk</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero animate__animated animate__fadeIn" id="hero-section">
+    <div class="container">
+      <h1 class="display-2 fw-bold animate__animated animate__fadeInDown">MediLink.lk</h1>
+      <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Your Trusted Online Pharmacy Partner</p>
+      <a href="shop.html" class="btn btn-lg mt-4 animate__animated animate__fadeInUp animate__delay-2s">Order Now</a>
+    </div>
+  </header>
+
+  <!-- Services -->
+ 
+
+  <!-- Footer -->
+  <footer class="bg-dark">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 MediLink.lk. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
